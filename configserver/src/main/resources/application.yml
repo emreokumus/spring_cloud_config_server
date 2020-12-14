@@ -7,9 +7,15 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/emreokumus/spring_cloud_config_server
+          uri: https://github.com/emreokumus/spring_cloud_config_server #yapılandırmayı aramak için git konumunu bağlayacaktır. Uzak git repoyu kullanıyoruz.
           username: emreokumus1994
           password: 1335026.Emre
+          cloneOnStart: true # Başlangıcında repoyu verify eder sorun olup olmadığına dair.
     profiles:
       active: native
-      ## Active profile native varsa onu çalıştırır yoksa application.yml
+      ## Active profile native buna ait conf dosyası varsa onuda çalıştırır.
+management:
+  security:
+    enabled: false
+  # /env, /refresh vb. gibi yönetim noktalarında spring güvenliğini devre dışı bırakır.
+  # Bu development ortamı için bir ayardır, production ortamında security aktif hale getirilmelidir.

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc982f52-9819-46db-9eae-375f5a6a15ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/config-client.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/config-client.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/config-client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/target/classes/application.yml" afterDir="false" />
     </list>
@@ -80,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607972793699</updated>
-      <workItem from="1607972799345" duration="1856000" />
+      <workItem from="1607972799345" duration="3489000" />
     </task>
     <servers />
   </component>

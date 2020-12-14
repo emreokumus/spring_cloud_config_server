@@ -7,8 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/emreokumus/spring_cloud_config_server
+          uri: https://github.com/emreokumus/spring_cloud_config_server/tree/master/configserver
           username: emreokumus1994
           password: 1335026.Emre
     profiles:
       active: native
+      ## Active profile native varsa onu çalıştırır yoksa application.yml
