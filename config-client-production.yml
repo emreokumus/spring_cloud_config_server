@@ -1,2 +1,2 @@
 #Git üzerinden çekilecek olan config-client uygulamasına ait conf. dosyası
-message: EmreOkumusProd
+message: Hello world - this is from config server - Prodcution Environment

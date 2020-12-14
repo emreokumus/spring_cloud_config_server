@@ -1,8 +1,9 @@
 server:
-  port: 8980
+  port: 8080
 spring:
   profiles:
     active: native
+    # Active profile native buna ait conf dosyası varsa onuda çalıştırır.
   application:
     name: config-server
   cloud:
@@ -13,9 +14,6 @@ spring:
           username: emreokumus1994
           password: 1335026.Emre
           cloneOnStart: true # Başlangıcında repoyu verify eder sorun olup olmadığına dair.
-    profiles:
-      active: native
-      ## Active profile native buna ait conf dosyası varsa onuda çalıştırır.
 management:
   security:
     enabled: false
