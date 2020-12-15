@@ -10,9 +10,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/emreokumus/spring_cloud_config_server #yapılandırmayı aramak için git konumunu bağlayacaktır. Uzak git repoyu kullanıyoruz.
-          username: emreokumus1994
-          password: 1335026.Emre
+          #uri: https://github.com/emreokumus/spring_cloud_config_server #yapılandırmayı aramak için git konumunu bağlayacaktır. Uzak git repoyu kullanıyoruz.
+          uri: https://github.com/emreokumus/${CONFIG_GIT_REPO_NAME}.git
+          username: ${CONFIG_GIT_USERNAME}
+          password: ${CONFIG_GIT_PASSWORD}
           cloneOnStart: true # Başlangıcında repoyu verify eder sorun olup olmadığına dair.
 management:
   security:
