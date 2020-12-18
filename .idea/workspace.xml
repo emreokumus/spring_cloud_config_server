@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc982f52-9819-46db-9eae-375f5a6a15ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configclient/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configclient/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607972793699</updated>
-      <workItem from="1607972799345" duration="12357000" />
+      <workItem from="1607972799345" duration="13093000" />
+      <workItem from="1608308962718" duration="41000" />
     </task>
     <servers />
   </component>
@@ -113,7 +114,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
